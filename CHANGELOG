@@ -1,0 +1,208 @@
+2008-11-20  alceu.freitas.jr
+
+	* [r169] MANIFEST: All changes related to the new namespace Win32::SqlServer::DTS
+	* [r168] examples/benchmark.pl, examples/DTS_UT/lib/DTS_UT/Model/DTS.pm,
+	  examples/DTS_UT/lib/DTS_UT/Model/UnitTest.pm, examples/list.pl, examples/modify.pl,
+	  examples/save_pkgs.pl, lib/Win32, lib/Win32/SqlServer, lib/Win32/SqlServer/DTS,
+	  lib/Win32/SqlServer/DTS.pm, lib/Win32/SqlServer/DTS/Application.pm,
+	  lib/Win32/SqlServer/DTS/Assignment, lib/Win32/SqlServer/DTS/Assignment.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Constant.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/DataFile.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination/Connection.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination/GlobalVar.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination/Package.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/Destination/Task.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/DestinationFactory.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/EnvVar.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/GlobalVar.pm,
+	  lib/Win32/SqlServer/DTS/Assignment/INI.pm, lib/Win32/SqlServer/DTS/Assignment/Query.pm,
+	  lib/Win32/SqlServer/DTS/AssignmentFactory.pm, lib/Win32/SqlServer/DTS/AssignmentTypes.pm,
+	  lib/Win32/SqlServer/DTS/Connection.pm, lib/Win32/SqlServer/DTS/Credential.pm,
+	  lib/Win32/SqlServer/DTS/DateTime.pm, lib/Win32/SqlServer/DTS/Package,
+	  lib/Win32/SqlServer/DTS/Package.pm, lib/Win32/SqlServer/DTS/Package/Step,
+	  lib/Win32/SqlServer/DTS/Package/Step.pm, lib/Win32/SqlServer/DTS/Package/Step/Result.pm,
+	  lib/Win32/SqlServer/DTS/Task, lib/Win32/SqlServer/DTS/Task.pm,
+	  lib/Win32/SqlServer/DTS/Task/DataPump.pm, lib/Win32/SqlServer/DTS/Task/DynamicProperty.pm,
+	  lib/Win32/SqlServer/DTS/Task/ExecutePackage.pm, lib/Win32/SqlServer/DTS/Task/SendEmail.pm,
+	  lib/Win32/SqlServer/DTS/TaskFactory.pm, lib/Win32/SqlServer/DTS/TaskTypes.pm, Makefile.PL,
+	  MANIFEST, META.yml, t/Application.t, t/Assignment.t, t/Assignment-Constant.t,
+	  t/Assignment-DataFile.t, t/Assignment-Destination.t, t/Assignment-EnvVar.t,
+	  t/AssignmentFactory.t, t/AssignmentTypes.t, t/Connection.t, t/Credential.t, t/DateTime.t,
+	  t/Destination-Connection.t, t/DTS.t, t/extended/Application.t, t/extended/Assignment.t,
+	  t/extended/Assignment-All-Destination.t, t/extended/Assignment-Constant.t,
+	  t/extended/Assignment-DataFile.t, t/extended/Assignment-EnvVar.t,
+	  t/extended/Assignment-GlobalVar.t, t/extended/Assignment-INI.t,
+	  t/extended/Assignment-Query.t, t/extended/Package.t, t/extended/StepResult.t,
+	  t/extended/Task-Datapump.t, t/extended/Task-SendEmail.t, t/Package.t, t/StepResult.t,
+	  t/Task.t, t/Task-DataPump.t, t/Task-DynamicProperty.t, t/Task-ExecutePackage.t,
+	  t/TaskFactory.t, t/Task-SendEmail.t, Win32-SqlServer-DTS.ppd: All changes related to the
+	  new namespace Win32::SqlServer::DTS
+	* [r167] DTS.ppd: Deprecated. See Win32-SqlServer-DTS.ppd for replacement.
+	* [r166] lib/DTS, lib/DTS.pm: Deprecated. All modules changed to the new namespace
+	  Win32::SqlServer::DTS
+
+2008-11-18  alceu.freitas.jr
+
+	* [r165] examples/DTS_UT/lib/DTS_UT/config/config.yml, examples/DTS_UT/MANIFEST,
+	  examples/DTS_UT/README:
+	* [r164] examples/DTS_UT/lib/DTS_UT/config/config.yml: test_script_path is a deprecated
+	  parameter
+
+2008-11-17  alceu.freitas.jr
+
+	* [r163] lib/DTS/AssignmentTypes.pm: updated POD
+	* [r162] t/extended/Package.t, t/extended/StepResult.t: fixed bugs
+	* [r161] MANIFEST:
+
+2008-11-14  alceu.freitas.jr
+
+	* [r160] examples/DTS_UT:
+	* [r159] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/NoExec.pm: updated POD
+	* [r158] examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm: updated POD
+
+2008-11-13  alceu.freitas.jr
+
+	* [r157] examples/DTS_UT/lib/DTS_UT/Model/UnitTest.pm,
+	  examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm: updated POD
+
+2008-11-12  alceu.freitas.jr
+
+	* [r156] examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm: fixed bug regarding using of
+	  DTS::Credential
+	* [r155] examples/DTS_UT/lib/DTS_UT/Model/UnitTest.pm: fixed bugs
+	* [r154] examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm:
+	* [r153] examples/DTS_UT/lib/DTS_UT/View/test_result.css:
+	* [r152] examples/DTS_UT/lib/DTS_UT/View/index.tmpl: fixed typo in HTML code
+	* [r151] examples/DTS_UT/MANIFEST:
+	* [r150] examples/DTS_UT/MANIFEST:
+	* [r149] examples/DTS_UT/lib/DTS_UT/config/ut_config.yml, examples/DTS_UT/lib/DTS_UT/tests:
+	  tests folder is deprecated
+	* [r148] examples/DTS_UT/MANIFEST: deprecated (see DTS_UT::Test::Harness::Straps::NoExec)
+	* [r147] examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm: updated to use
+	  DTS_UT::Model::UnitTestExec new parameters for constructor method.
+	* [r146] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/NoExec.pm: added constructor to hold
+	  a reference to a DTS_UT::Model::UnitTest object
+	* [r145] examples/DTS_UT/lib/DTS_UT/Model/UniTest.pm: wrong filename
+	* [r144] examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm: all changes to use
+	  DTS_UT::Test::Harness::Straps::NoExec and DTS_UT::Model::UnitTest
+	* [r143] examples/DTS_UT/lib/DTS_UT/Model/UnitTest.pm: initial release
+	* [r142] examples/DTS_UT/lib/DTS_UT/Model/UniTest.pm: initial release
+	* [r141] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/Eval.pm,
+	  examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/Parameter.pm: deprecated (see
+	  DTS_UT::Test::Harness::Straps::NoExec)
+	* [r140] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/NoExec.pm: initial release
+	* [r139] examples/DTS_UT/lib/DTS_UT/Controller.pm: updated POD
+
+2008-11-11  alceu.freitas.jr
+
+	* [r138] examples/DTS_UT/lib/DTS_UT/Controller.pm: updated POD
+	* [r137] examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm: added support to IIS web
+	  server by using path_info method
+
+2008-11-04  alceu.freitas.jr
+
+	* [r136] examples/DTS_UT, examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm,
+	  examples/DTS_UT/lib/DTS_UT/Model/DTS.pm: fixed bug
+	  updated POD
+	* [r135] examples/DTS_UT/MANIFEST:
+	* [r134] examples/DTS_UT/DTS_UT.ppd: ncluded implementation for version 5.8 and 5.10 of
+	  ActivePerl
+	* [r133] examples/DTS_UT/lib/DTS_UT/Controller.pm: updated POD
+	* [r132] examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm: included POD
+	* [r131] examples/DTS_UT/lib/DTS_UT/config/config.yml: added pathname parameter for
+	  temporary file creation
+	* [r130] examples/DTS_UT/lib/DTS_UT/Model/DTS.pm: initial release
+	  read_dts_list ethod stripped off from UnitTestExec.pm
+	* [r129] examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm: Created POD
+	* [r128] examples/DTS_UT/lib/DTS_UT/tests/dts_list.yml: Deprecated. Packages will be read
+	  directly from the SQL Server
+	* [r127] examples/DTS_UT/lib/DTS_UT/View/checkAll.js: included some comments
+	* [r126] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/Parameter.pm: included POD
+	* [r125] examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/Eval.pm: initial release
+	* [r124] examples/DTS_UT/lib/DTS_UT/tests/DTS.t: updated to use release 0.0.7 of Perldts
+	  (DTS::Package methods return iterators instead of array references)
+	* [r123] examples/DTS_UT:
+	* [r122] examples/DTS_UT, examples/DTS_UT/DTS_UT.ppd, examples/DTS_UT/lib,
+	  examples/DTS_UT/lib/DTS_UT, examples/DTS_UT/lib/DTS_UT.pm, examples/DTS_UT/lib/DTS_UT/CGI,
+	  examples/DTS_UT/lib/DTS_UT/CGI/dts.cgi, examples/DTS_UT/lib/DTS_UT/config,
+	  examples/DTS_UT/lib/DTS_UT/config/config.yml,
+	  examples/DTS_UT/lib/DTS_UT/config/httpd.conf, examples/DTS_UT/lib/DTS_UT/Controller,
+	  examples/DTS_UT/lib/DTS_UT/Controller.pm,
+	  examples/DTS_UT/lib/DTS_UT/Controller/MainController.pm, examples/DTS_UT/lib/DTS_UT/Model,
+	  examples/DTS_UT/lib/DTS_UT/Model/UnitTestExec.pm, examples/DTS_UT/lib/DTS_UT/Test,
+	  examples/DTS_UT/lib/DTS_UT/Test/Harness, examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps,
+	  examples/DTS_UT/lib/DTS_UT/Test/Harness/Straps/Parameter.pm,
+	  examples/DTS_UT/lib/DTS_UT/tests, examples/DTS_UT/lib/DTS_UT/tests/DTS.t,
+	  examples/DTS_UT/lib/DTS_UT/tests/dts_list.yml,
+	  examples/DTS_UT/lib/DTS_UT/tests/ut_config.yml, examples/DTS_UT/lib/DTS_UT/View,
+	  examples/DTS_UT/lib/DTS_UT/View/checkAll.js, examples/DTS_UT/lib/DTS_UT/View/error.tmpl,
+	  examples/DTS_UT/lib/DTS_UT/View/index.tmpl,
+	  examples/DTS_UT/lib/DTS_UT/View/test_result.css,
+	  examples/DTS_UT/lib/DTS_UT/View/test_result.tmpl, examples/DTS_UT/Makefile.PL,
+	  examples/DTS_UT/MANIFEST, examples/DTS_UT/pm_to_blib, examples/DTS_UT/README,
+	  examples/DTS_UT/t, examples/DTS_UT/t/DTS_UT.t: initial release of web application to
+	  execute unit tests in DTS packages
+
+2008-11-03  alceu.freitas.jr
+
+	* [r121] lib/DTS/Package.pm: fixed bug with tasks cache in _get_tasks_by_type method
+	  updated POD of _get_tasks_by_type method
+
+2008-10-30  alceu.freitas.jr
+
+	* [r120] lib/DTS.pm, lib/DTS/Package.pm: updated POD
+	* [r119] TODO.txt:
+	* [r118] TODO.txt:
+	* [r117] lib/DTS/Package.pm: DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type
+	  now return an iterator instead of an array reference
+	  DTS::Package::get_connections now returns an iterator
+	* [r116] t/extended/Package.t: DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type
+	  now return an iterator instead of an array reference
+	  DTS::Package::get_connections now returns an iterator
+	* [r115] lib/DTS/Connection.pm: updated POD
+	* [r114] t/extended/Task-SendEmail.t: DTS::Package::get_tasks and
+	  DTS::Package::_get_tasks_by_type now return an iterator instead of an array reference
+	* [r113] lib/DTS/Package.pm: DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type
+	  now return an iterator instead of an array reference
+	* [r112] lib/DTS/Task/SendEmail.pm: updated POD
+	* [r111] lib/DTS/Task/ExecutePackage.pm: updated POD
+	* [r110] lib/DTS/Task/DynamicProperty.pm: DTS::Package::get_tasks and
+	  DTS::Package::_get_tasks_by_type now return an iterator instead of an array reference
+	* [r109] examples/modify.pl: DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type
+	  now return an iterator instead of an array reference
+	* [r108] lib/DTS/Assignment/Constant.pm, lib/DTS/Assignment/DataFile.pm,
+	  lib/DTS/Assignment/Destination.pm, lib/DTS/Assignment/EnvVar.pm,
+	  lib/DTS/Assignment/GlobalVar.pm, lib/DTS/Assignment/INI.pm, lib/DTS/Assignment/Query.pm:
+	  DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type now return an iterator
+	  instead of an array reference
+	* [r107] t/extended/Assignment.t, t/extended/Assignment-All-Destination.t,
+	  t/extended/Assignment-Constant.t, t/extended/Assignment-DataFile.t,
+	  t/extended/Assignment-EnvVar.t, t/extended/Assignment-GlobalVar.t,
+	  t/extended/Assignment-INI.t, t/extended/Assignment-Query.t, t/extended/Package.t:
+	  DTS::Package::get_tasks and DTS::Package::_get_tasks_by_type now return an iterator
+	  instead of an array reference
+	* [r106] t/extended/StepResult.t: removed the Execute SQL Task since there is no such class
+	  implemented in Perldts
+	* [r105] test-all.dts: removed the Execute SQL Task since there is no such class implemented
+	  in Perldts
+	* [r104] lib/DTS/Assignment/Destination/Connection.pm,
+	  lib/DTS/Assignment/Destination/GlobalVar.pm, lib/DTS/Assignment/Destination/Package.pm,
+	  lib/DTS/Assignment/Destination/Task.pm: updated POD example to use an iterator
+	* [r103] t/extended/Task-Datapump.t: changed code to use an iterator returned by
+	  DTS::Package::get_datapumps method
+	* [r102] lib/DTS/Task/DataPump.pm: updated POD example to use an iterator
+	* [r101] lib/DTS/TaskTypes.pm: created get_types and get_perl_types methods
+	  created global hash containing the known types
+	* [r100] lib/DTS/DateTime.pm: updated POD
+	* [r99] test_conf.dtd: deprecated (see test-conf.dtd)
+	* [r98] DTS.ppd: added second IMPLEMENTATION element to allow setup on both versions of
+	  ActivePerl (5.8 and 5.10)
+
+2008-10-15  alceu.freitas.jr
+
+	* [r97] .: updated directory and files permissions
+	* [r96] META.yml: updated license name to GNU GPL
+	  removed comment about the YAML SPEC version
+	* [r95] lib/DTS.pm: update POD warning about new distribution name
