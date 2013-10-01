@@ -1,36 +1,35 @@
 ---
-abstract: 'Perl classes to access Microsoft SQL Server 2000 DTS Packages'
-name:         DTS
-version:      0.09
-version_from: lib/Win32/SqlServer/DTS.pm
-installdirs:  site
+abstract: "Perl classes to access Microsoft SQL Server 2000 DTS Packages "
+author:
+  - 'Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>'
 build_requires:
-    XML::Simple:                   2.18
-    Test::Exception:               0.27
-    Test::More:                    0
-    Win32::OLE:                    0.1704
-    Win32::OLE::Variant:           0
-    Test::POD:                     1.22
-    Test::Pod::Coverage:           1.08
-requires:
-    Carp:                          1.04
-    Class::Accessor:               0.25
-    Class::Publisher:              0.2
-    DateTime:                      0.35
-    Hash::Util:                    0.05
-    Win32::OLE:                    0.1704
-    XML::Simple:                   2.18
-no_index:
-  directory:
-    - t    
-author: Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>
-license: GNU GPL
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+name: Win32-SqlServer-DTS
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 1.04
+  Class::Accessor: 0.25
+  Class::Publisher: 0.2
+  DateTime: 0.35
+  Devel::AssertOS: 0
+  Hash::Util: 0.05
+  Params::Validate: 0
+  Win32::OLE: 0.1704
+  XML::Simple: 2.18
 resources:
-    license: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-    homepage: http://code.google.com/p/perldts/
-    bugtracker: http://code.google.com/p/perldts/issues/list
+  bugtracker: http://code.google.com/p/perldts/issues/list
+  homepage: http://code.google.com/p/perldts/
+  license: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+  repository: http://code.google.com/p/perldts/source/browse/
+version: 0.10

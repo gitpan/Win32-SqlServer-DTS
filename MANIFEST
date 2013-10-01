@@ -78,3 +78,4 @@ test-conf.dtd
 test-config.xml
 t/Destination-Connection.t
 t/Assignment-Destination.t
+META.json                                Module JSON meta-data (added by MakeMaker)

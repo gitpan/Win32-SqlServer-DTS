@@ -1,0 +1,61 @@
+{
+   "abstract" : "Perl classes to access Microsoft SQL Server 2000 DTS Packages ",
+   "author" : [
+      "Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Win32-SqlServer-DTS",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "1.04",
+            "Class::Accessor" : "0.25",
+            "Class::Publisher" : "0.2",
+            "DateTime" : "0.35",
+            "Devel::AssertOS" : "0",
+            "Hash::Util" : "0.05",
+            "Params::Validate" : "0",
+            "Win32::OLE" : "0.1704",
+            "XML::Simple" : "2.18"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://code.google.com/p/perldts/issues/list"
+      },
+      "homepage" : "http://code.google.com/p/perldts/",
+      "license" : [
+         "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+      ],
+      "repository" : {
+         "url" : "http://code.google.com/p/perldts/source/browse/"
+      }
+   },
+   "version" : "0.10"
+}
